@@ -1,0 +1,82 @@
+CRITICAL - 2022-01-16 12:35:26 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 /Users/mohammadrevan/Desktop/ci4/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 /Users/mohammadrevan/Desktop/ci4/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /Users/mohammadrevan/Desktop/ci4/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /Users/mohammadrevan/Desktop/ci4/spark(45): require('/Users/mohammad...')
+#4 {main}
+CRITICAL - 2022-01-16 07:09:51 --> Invalid file: index.php
+#0 /Users/mohammadrevan/Desktop/skripsi/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+#1 /Users/mohammadrevan/Desktop/skripsi/system/Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#2 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Home.php(9): view('index')
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#4 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#8 {main}
+CRITICAL - 2022-01-16 07:10:23 --> Invalid file: index.php
+#0 /Users/mohammadrevan/Desktop/skripsi/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+#1 /Users/mohammadrevan/Desktop/skripsi/system/Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#2 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Home.php(9): view('index')
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#4 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#8 {main}
+CRITICAL - 2022-01-16 07:10:30 --> Invalid file: index.php
+#0 /Users/mohammadrevan/Desktop/skripsi/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+#1 /Users/mohammadrevan/Desktop/skripsi/system/Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#2 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Home.php(9): view('index')
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#4 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#8 {main}
+CRITICAL - 2022-01-16 07:10:42 --> Invalid file: index.php
+#0 /Users/mohammadrevan/Desktop/skripsi/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+#1 /Users/mohammadrevan/Desktop/skripsi/system/Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#2 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Home.php(9): view('index')
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#4 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#8 {main}
+CRITICAL - 2022-01-16 07:35:53 --> Undefined variable $title
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Views/dashboard/index.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/mohammad...', 9)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/View/View.php(210): include('/Users/mohammad...')
+#2 /Users/mohammadrevan/Desktop/skripsi/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/mohammadrevan/Desktop/skripsi/system/Common.php(1089): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#4 /Users/mohammadrevan/Desktop/skripsi/app/Config/Routes.php(38): view('dashboard/index')
+#5 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(781): CodeIgniter\CodeIgniter->Config\{closure}()
+#6 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#7 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#10 {main}
+CRITICAL - 2022-01-16 07:36:15 --> Undefined variable $title
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Views/dashboard/index.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/mohammad...', 9)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/View/View.php(210): include('/Users/mohammad...')
+#2 /Users/mohammadrevan/Desktop/skripsi/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/mohammadrevan/Desktop/skripsi/system/Common.php(1089): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#4 /Users/mohammadrevan/Desktop/skripsi/app/Config/Routes.php(38): view('dashboard/index')
+#5 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(781): CodeIgniter\CodeIgniter->Config\{closure}()
+#6 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#7 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#10 {main}
+CRITICAL - 2022-01-16 07:36:19 --> Undefined variable $title
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Views/dashboard/index.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/mohammad...', 9)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/View/View.php(210): include('/Users/mohammad...')
+#2 /Users/mohammadrevan/Desktop/skripsi/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/mohammadrevan/Desktop/skripsi/system/Common.php(1089): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#4 /Users/mohammadrevan/Desktop/skripsi/app/Config/Routes.php(38): view('dashboard/index')
+#5 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(781): CodeIgniter\CodeIgniter->Config\{closure}()
+#6 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#7 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#10 {main}

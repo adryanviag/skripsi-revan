@@ -1,0 +1,623 @@
+ERROR - 2022-02-21 00:12:08 --> Error connecting to the database: Can't assign requested address
+CRITICAL - 2022-02-21 00:12:08 --> Unable to connect to the database.
+Main connection [MySQLi]: Can't assign requested address
+#0 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('admin', 'username', Array, NULL)
+#4 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'admin', Array, Array)
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Login.php(23): CodeIgniter\Controller->validate(Array)
+#7 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Login->daftar()
+#8 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#12 {main}
+ERROR - 2022-02-21 00:13:18 --> Error connecting to the database: Can't assign requested address
+CRITICAL - 2022-02-21 00:13:18 --> Unable to connect to the database.
+Main connection [MySQLi]: Can't assign requested address
+#0 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('admin', 'username', Array, NULL)
+#4 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'admin', Array, Array)
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Login.php(23): CodeIgniter\Controller->validate(Array)
+#7 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Login->daftar()
+#8 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#12 {main}
+ERROR - 2022-02-21 00:15:13 --> Error connecting to the database: Can't assign requested address
+CRITICAL - 2022-02-21 00:15:13 --> Unable to connect to the database.
+Main connection [MySQLi]: Can't assign requested address
+#0 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('admin', 'username', Array, NULL)
+#4 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'admin', Array, Array)
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Login.php(23): CodeIgniter\Controller->validate(Array)
+#7 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Login->daftar()
+#8 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#12 {main}
+ERROR - 2022-02-21 00:15:34 --> Error connecting to the database: Can't assign requested address
+CRITICAL - 2022-02-21 00:15:34 --> Unable to connect to the database.
+Main connection [MySQLi]: Can't assign requested address
+#0 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('admin', 'username', Array, NULL)
+#4 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'admin', Array, Array)
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Login.php(23): CodeIgniter\Controller->validate(Array)
+#7 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Login->daftar()
+#8 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#12 {main}
+ERROR - 2022-02-21 00:17:49 --> Error connecting to the database: Can't assign requested address
+CRITICAL - 2022-02-21 00:17:49 --> Unable to connect to the database.
+Main connection [MySQLi]: Can't assign requested address
+#0 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('admin', 'username', Array, NULL)
+#4 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'admin', Array, Array)
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Login.php(23): CodeIgniter\Controller->validate(Array)
+#7 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Login->daftar()
+#8 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#12 {main}
+CRITICAL - 2022-02-21 00:19:53 --> Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$body
+#0 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Login->daftar()
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#5 {main}
+CRITICAL - 2022-02-21 00:20:39 --> Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$body
+#0 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Login->daftar()
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#5 {main}
+ERROR - 2022-02-21 00:21:01 --> Error connecting to the database: Can't assign requested address
+CRITICAL - 2022-02-21 00:21:01 --> Unable to connect to the database.
+Main connection [MySQLi]: Can't assign requested address
+#0 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('admin', 'username', Array, NULL)
+#4 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'admin', Array, Array)
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Login.php(23): CodeIgniter\Controller->validate(Array)
+#7 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Login->daftar()
+#8 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#12 {main}
+ERROR - 2022-02-21 00:21:55 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-02-21 00:21:55 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('admin', 'username', Array, NULL)
+#4 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'admin', Array, Array)
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Login.php(23): CodeIgniter\Controller->validate(Array)
+#7 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Login->daftar()
+#8 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#12 {main}
+ERROR - 2022-02-21 00:22:01 --> Error connecting to the database: Can't assign requested address
+CRITICAL - 2022-02-21 00:22:01 --> Unable to connect to the database.
+Main connection [MySQLi]: Can't assign requested address
+#0 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('admin', 'username', Array, NULL)
+#4 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'admin', Array, Array)
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Login.php(23): CodeIgniter\Controller->validate(Array)
+#7 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Login->daftar()
+#8 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#12 {main}
+ERROR - 2022-02-21 00:22:16 --> Error connecting to the database: Can't assign requested address
+CRITICAL - 2022-02-21 00:22:16 --> Unable to connect to the database.
+Main connection [MySQLi]: Can't assign requested address
+#0 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('admin', 'username', Array, NULL)
+#4 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'admin', Array, Array)
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Login.php(23): CodeIgniter\Controller->validate(Array)
+#7 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Login->daftar()
+#8 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#12 {main}
+ERROR - 2022-02-21 00:22:23 --> Error connecting to the database: Can't assign requested address
+CRITICAL - 2022-02-21 00:22:23 --> Unable to connect to the database.
+Main connection [MySQLi]: Can't assign requested address
+#0 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('admin', 'username', Array, NULL)
+#4 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'admin', Array, Array)
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Login.php(23): CodeIgniter\Controller->validate(Array)
+#7 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Login->daftar()
+#8 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#12 {main}
+ERROR - 2022-02-21 00:25:56 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-02-21 00:25:56 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('admin', 'username', Array, NULL)
+#4 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'admin', Array, Array)
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Login.php(23): CodeIgniter\Controller->validate(Array)
+#7 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Login->daftar()
+#8 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#12 {main}
+ERROR - 2022-02-21 00:26:19 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-02-21 00:26:19 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('admin', 'username', Array, NULL)
+#4 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'admin', Array, Array)
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Login.php(23): CodeIgniter\Controller->validate(Array)
+#7 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Login->daftar()
+#8 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#12 {main}
+ERROR - 2022-02-21 00:29:07 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-02-21 00:29:07 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('admin', 'username', Array, NULL)
+#4 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'admin', Array, Array)
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Login.php(23): CodeIgniter\Controller->validate(Array)
+#7 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Login->daftar()
+#8 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#12 {main}
+ERROR - 2022-02-21 00:29:28 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-02-21 00:29:28 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('admin', 'username', Array, NULL)
+#4 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'admin', Array, Array)
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Login.php(23): CodeIgniter\Controller->validate(Array)
+#7 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Login->daftar()
+#8 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#12 {main}
+ERROR - 2022-02-21 00:31:31 --> Error connecting to the database: php_network_getaddresses: getaddrinfo for http failed: nodename nor servname provided, or not known
+CRITICAL - 2022-02-21 00:31:31 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo for http failed: nodename nor servname provided, or not known
+#0 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('admin', 'username', Array, NULL)
+#4 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'admin', Array, Array)
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Login.php(23): CodeIgniter\Controller->validate(Array)
+#7 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Login->daftar()
+#8 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#12 {main}
+ERROR - 2022-02-21 00:31:46 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-02-21 00:31:46 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('admin', 'username', Array, NULL)
+#4 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'admin', Array, Array)
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Login.php(23): CodeIgniter\Controller->validate(Array)
+#7 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Login->daftar()
+#8 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#12 {main}
+ERROR - 2022-02-21 00:32:33 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-02-21 00:32:33 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('admin', 'username', Array, NULL)
+#4 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'admin', Array, Array)
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Login.php(23): CodeIgniter\Controller->validate(Array)
+#7 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Login->daftar()
+#8 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#12 {main}
+ERROR - 2022-02-21 00:33:23 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-02-21 00:33:23 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('admin', 'username', Array, NULL)
+#4 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'admin', Array, Array)
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Login.php(23): CodeIgniter\Controller->validate(Array)
+#7 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Login->daftar()
+#8 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#12 {main}
+ERROR - 2022-02-21 00:34:12 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-02-21 00:34:12 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('admin', 'username', Array, NULL)
+#4 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'admin', Array, Array)
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Login.php(23): CodeIgniter\Controller->validate(Array)
+#7 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Login->daftar()
+#8 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#12 {main}
+ERROR - 2022-02-21 00:37:12 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-02-21 00:37:12 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('admin', 'username', Array, NULL)
+#4 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'admin', Array, Array)
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Login.php(23): CodeIgniter\Controller->validate(Array)
+#7 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Login->daftar()
+#8 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#12 {main}
+ERROR - 2022-02-21 00:37:56 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-02-21 00:37:56 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('admin', 'username', Array, NULL)
+#4 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'admin', Array, Array)
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Login.php(23): CodeIgniter\Controller->validate(Array)
+#7 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Login->daftar()
+#8 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#12 {main}
+ERROR - 2022-02-21 00:38:19 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-02-21 00:38:19 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('admin', 'username', Array, NULL)
+#4 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'admin', Array, Array)
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Login.php(23): CodeIgniter\Controller->validate(Array)
+#7 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Login->daftar()
+#8 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#12 {main}
+ERROR - 2022-02-21 00:40:23 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-02-21 00:40:23 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('admin', 'username', Array, NULL)
+#4 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'admin', Array, Array)
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Login.php(23): CodeIgniter\Controller->validate(Array)
+#7 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Login->daftar()
+#8 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#12 {main}
+ERROR - 2022-02-21 00:41:39 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-02-21 00:41:39 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('admin', 'username', Array, NULL)
+#4 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'admin', Array, Array)
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Login.php(23): CodeIgniter\Controller->validate(Array)
+#7 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Login->daftar()
+#8 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#12 {main}
+ERROR - 2022-02-21 00:42:38 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-02-21 00:42:38 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('admin', 'username', Array, NULL)
+#4 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'admin', Array, Array)
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Login.php(23): CodeIgniter\Controller->validate(Array)
+#7 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Login->daftar()
+#8 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#12 {main}
+ERROR - 2022-02-21 00:42:57 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-02-21 00:42:57 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('admin', 'username', Array, NULL)
+#4 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'admin', Array, Array)
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Login.php(23): CodeIgniter\Controller->validate(Array)
+#7 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Login->daftar()
+#8 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#12 {main}
+ERROR - 2022-02-21 00:43:03 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-02-21 00:43:03 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('admin', 'username', Array, NULL)
+#4 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'admin', Array, Array)
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Login.php(23): CodeIgniter\Controller->validate(Array)
+#7 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Login->daftar()
+#8 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#12 {main}
+ERROR - 2022-02-21 00:43:09 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-02-21 00:43:09 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('admin', 'username', Array, NULL)
+#4 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'admin', Array, Array)
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Login.php(23): CodeIgniter\Controller->validate(Array)
+#7 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Login->daftar()
+#8 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#12 {main}
+ERROR - 2022-02-21 00:43:32 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-02-21 00:43:32 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('admin', 'username', Array, NULL)
+#4 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'admin', Array, Array)
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Login.php(23): CodeIgniter\Controller->validate(Array)
+#7 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Login->daftar()
+#8 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#12 {main}
+ERROR - 2022-02-21 00:44:08 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-02-21 00:44:08 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('admin', 'username', Array, NULL)
+#4 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'admin', Array, Array)
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Login.php(23): CodeIgniter\Controller->validate(Array)
+#7 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Login->daftar()
+#8 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#12 {main}
+ERROR - 2022-02-21 00:44:20 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-02-21 00:44:20 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('admin', 'username', Array, NULL)
+#4 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'admin', Array, Array)
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Login.php(23): CodeIgniter\Controller->validate(Array)
+#7 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Login->daftar()
+#8 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#12 {main}
+ERROR - 2022-02-21 00:46:35 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-02-21 00:46:35 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('admin', 'username', Array, NULL)
+#4 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'admin', Array, Array)
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Login.php(23): CodeIgniter\Controller->validate(Array)
+#7 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Login->daftar()
+#8 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#12 {main}
+ERROR - 2022-02-21 00:48:59 --> Error connecting to the database: Access denied for user ''@'localhost' to database 'skripsi'
+CRITICAL - 2022-02-21 00:48:59 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' to database 'skripsi'
+#0 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('admin', 'username', Array, NULL)
+#4 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'admin', Array, Array)
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Login.php(23): CodeIgniter\Controller->validate(Array)
+#7 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Login->daftar()
+#8 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#12 {main}
+ERROR - 2022-02-21 00:49:15 --> Table 'skripsi.users' doesn't exist
+CRITICAL - 2022-02-21 00:49:15 --> Table 'skripsi.users' doesn't exist
+#0 /Users/mohammadrevan/Desktop/skripsi/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('admin', 'username', Array, NULL)
+#6 /Users/mohammadrevan/Desktop/skripsi/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'admin', Array, Array)
+#7 /Users/mohammadrevan/Desktop/skripsi/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Login.php(23): CodeIgniter\Controller->validate(Array)
+#9 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Login->daftar()
+#10 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#11 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#14 {main}
+CRITICAL - 2022-02-21 01:16:40 --> Class "Config\LoginFilter" not found
+#0 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('signin', 'before')
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#3 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#4 {main}
+CRITICAL - 2022-02-21 01:16:41 --> Class "Config\LoginFilter" not found
+#0 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('signin', 'before')
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#3 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#4 {main}
+CRITICAL - 2022-02-21 01:17:22 --> Class "Config\LoginFilter" not found
+#0 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('login', 'before')
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#3 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#4 {main}
+CRITICAL - 2022-02-21 01:17:31 --> Class "Config\LoginFilter" not found
+#0 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('login', 'before')
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#3 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#4 {main}
+CRITICAL - 2022-02-21 01:17:33 --> Class "Config\LoginFilter" not found
+#0 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('login', 'before')
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#3 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#4 {main}
+CRITICAL - 2022-02-21 01:17:35 --> Class "Config\LoginFilter" not found
+#0 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('login', 'before')
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#3 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#4 {main}
+CRITICAL - 2022-02-21 01:17:36 --> Class "Config\LoginFilter" not found
+#0 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('login', 'before')
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#3 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#4 {main}
+CRITICAL - 2022-02-21 01:23:53 --> Invalid file: data_ayam/index.php
+#0 /Users/mohammadrevan/Desktop/skripsi/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('data_ayam/index...')
+#1 /Users/mohammadrevan/Desktop/skripsi/system/Common.php(1089): CodeIgniter\View\View->render('data_ayam/index', Array, true)
+#2 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/DataBibitAyam.php(10): view('data_ayam/index', Array)
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\DataBibitAyam->index()
+#4 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataBibitAyam))
+#5 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#8 {main}
+CRITICAL - 2022-02-21 01:45:50 --> Undefined variable $databibit
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Views/pages/data_ayam/index.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/mohammad...', 25)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/View/View.php(210): include('/Users/mohammad...')
+#2 /Users/mohammadrevan/Desktop/skripsi/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/mohammadrevan/Desktop/skripsi/system/Common.php(1089): CodeIgniter\View\View->render('pages/data_ayam...', Array, true)
+#4 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/DataBibitAyam.php(10): view('pages/data_ayam...', Array)
+#5 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\DataBibitAyam->index()
+#6 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataBibitAyam))
+#7 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#10 {main}

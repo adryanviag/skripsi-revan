@@ -1,0 +1,12 @@
+CRITICAL - 2022-05-09 00:00:16 --> Attempt to read property "id" on array
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Views/pages/penjualan/edit.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Users/mohammad...', 11)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/View/View.php(210): include('/Users/mohammad...')
+#2 /Users/mohammadrevan/Desktop/skripsi/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/mohammadrevan/Desktop/skripsi/system/Common.php(1089): CodeIgniter\View\View->render('pages/penjualan...', Array, true)
+#4 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Penjualan.php(62): view('pages/penjualan...', Array)
+#5 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Penjualan->edit('13')
+#6 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#7 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#10 {main}

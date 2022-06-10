@@ -1,0 +1,362 @@
+CRITICAL - 2022-03-28 03:22:18 --> Trying to access array offset on value of type null
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/mohammad...', 47)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-28 04:14:53 --> Undefined array key 1
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/mohammad...', 64)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-28 04:14:56 --> Undefined array key 1
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/mohammad...', 64)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-28 04:16:24 --> Undefined array key 1
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/mohammad...', 64)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-28 04:16:30 --> Undefined array key 1
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/mohammad...', 64)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-28 04:32:07 --> Undefined array key 1
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/mohammad...', 71)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-28 04:32:24 --> Trying to access array offset on value of type float
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/mohammad...', 71)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-28 04:32:38 --> Trying to access array offset on value of type float
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/mohammad...', 71)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-28 04:33:13 --> Trying to access array offset on value of type float
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/mohammad...', 71)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-28 04:33:21 --> Trying to access array offset on value of type float
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/mohammad...', 71)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-28 04:56:05 --> Undefined array key 11
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/mohammad...', 71)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-28 05:01:12 --> Undefined array key 11
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/mohammad...', 71)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-28 05:01:16 --> Undefined array key -1
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/mohammad...', 71)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-28 05:01:26 --> Undefined array key -1
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/mohammad...', 71)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-28 05:01:34 --> Undefined array key 1
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/mohammad...', 71)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-28 05:01:40 --> Undefined array key 1
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/mohammad...', 71)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-28 05:02:07 --> Undefined array key 11
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/mohammad...', 71)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-28 05:03:10 --> Undefined array key 11
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/mohammad...', 71)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-28 05:03:37 --> Undefined array key 1
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/mohammad...', 71)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-28 05:04:34 --> Undefined array key 1
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/mohammad...', 71)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-28 05:04:42 --> Undefined array key 1
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/mohammad...', 71)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-28 05:04:50 --> Undefined array key 11
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/mohammad...', 71)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-28 05:09:14 --> Undefined array key 11
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/mohammad...', 71)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-28 05:11:09 --> Undefined array key 11
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/mohammad...', 71)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-28 05:11:22 --> Undefined array key 11
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/mohammad...', 71)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-28 05:12:38 --> Undefined array key 11
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/mohammad...', 77)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-28 05:42:45 --> Undefined array key 12
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/mohammad...', 81)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-28 05:43:21 --> Undefined array key 12
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/mohammad...', 81)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-28 05:44:44 --> Undefined array key 12
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/mohammad...', 84)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-28 05:45:17 --> Undefined array key 12
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/mohammad...', 84)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-28 06:01:19 --> Undefined array key 12
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/mohammad...', 85)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-28 06:02:57 --> Undefined array key 10
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/mohammad...', 89)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-28 06:04:08 --> Undefined array key 10
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/mohammad...', 89)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-28 06:05:10 --> Undefined array key 10
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/mohammad...', 89)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-28 06:27:58 --> Undefined array key 13
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/mohammad...', 94)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-28 06:28:36 --> Undefined array key "at_ft"
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/mohammad...', 95)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+ERROR - 2022-03-28 06:34:28 --> Unknown column 'tahun' in 'where clause'
+CRITICAL - 2022-03-28 06:34:28 --> Unknown column 'tahun' in 'where clause'
+#0 /Users/mohammadrevan/Desktop/skripsi/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `harga_j...', 0)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `harga_j...')
+#2 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `harga_j...')
+#3 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `harga_j...', Array, false)
+#4 /Users/mohammadrevan/Desktop/skripsi/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(31): CodeIgniter\BaseModel->first()
+#7 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#8 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#9 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#12 {main}
+CRITICAL - 2022-03-28 06:40:53 --> Unsupported operand types: array * float
+#0 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#5 {main}
+CRITICAL - 2022-03-28 06:41:11 --> Unsupported operand types: array * float
+#0 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#5 {main}
+CRITICAL - 2022-03-28 06:41:27 --> Unsupported operand types: array * float
+#0 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#5 {main}
+CRITICAL - 2022-03-28 06:42:35 --> Unsupported operand types: array * float
+#0 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#5 {main}
+CRITICAL - 2022-03-28 06:43:05 --> Unsupported operand types: array * float
+#0 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#5 {main}
+CRITICAL - 2022-03-28 06:43:21 --> Undefined variable $data
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/mohammad...', 33)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-28 06:49:00 --> Undefined variable $harga
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/mohammad...', 57)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-28 06:59:29 --> Undefined array key "at"
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/mohammad...', 54)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}

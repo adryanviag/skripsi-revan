@@ -1,0 +1,379 @@
+ERROR - 2022-03-16 04:53:37 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-03-16 04:53:37 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/mohammadrevan/Desktop/skripsi/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/mohammadrevan/Desktop/skripsi/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/mohammadrevan/Desktop/skripsi/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Login.php(58): CodeIgniter\BaseModel->first()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Login->process()
+#6 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#10 {main}
+CRITICAL - 2022-03-16 05:21:37 --> Attempt to read property "id" on array
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Views/pages/penjualan/index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Users/mohammad...', 33)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/View/View.php(210): include('/Users/mohammad...')
+#2 /Users/mohammadrevan/Desktop/skripsi/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/mohammadrevan/Desktop/skripsi/system/Common.php(1089): CodeIgniter\View\View->render('pages/penjualan...', Array, true)
+#4 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Penjualan.php(15): view('pages/penjualan...', Array)
+#5 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Penjualan->index()
+#6 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#7 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#10 {main}
+CRITICAL - 2022-03-16 05:21:47 --> Attempt to read property "id" on array
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Views/pages/penjualan/index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Users/mohammad...', 33)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/View/View.php(210): include('/Users/mohammad...')
+#2 /Users/mohammadrevan/Desktop/skripsi/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/mohammadrevan/Desktop/skripsi/system/Common.php(1089): CodeIgniter\View\View->render('pages/penjualan...', Array, true)
+#4 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Penjualan.php(15): view('pages/penjualan...', Array)
+#5 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Penjualan->index()
+#6 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#7 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#10 {main}
+CRITICAL - 2022-03-16 05:22:20 --> Attempt to read property "id" on array
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Views/pages/penjualan/index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Users/mohammad...', 33)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/View/View.php(210): include('/Users/mohammad...')
+#2 /Users/mohammadrevan/Desktop/skripsi/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/mohammadrevan/Desktop/skripsi/system/Common.php(1089): CodeIgniter\View\View->render('pages/penjualan...', Array, true)
+#4 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Penjualan.php(15): view('pages/penjualan...', Array)
+#5 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Penjualan->index()
+#6 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#7 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#10 {main}
+CRITICAL - 2022-03-16 05:22:25 --> Attempt to read property "jenis" on array
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Views/pages/penjualan/index.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Users/mohammad...', 34)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/View/View.php(210): include('/Users/mohammad...')
+#2 /Users/mohammadrevan/Desktop/skripsi/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/mohammadrevan/Desktop/skripsi/system/Common.php(1089): CodeIgniter\View\View->render('pages/penjualan...', Array, true)
+#4 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Penjualan.php(15): view('pages/penjualan...', Array)
+#5 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Penjualan->index()
+#6 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#7 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#10 {main}
+CRITICAL - 2022-03-16 05:24:42 --> Undefined variable $penjualan
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Views/pages/penjualan/index.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/mohammad...', 31)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/View/View.php(210): include('/Users/mohammad...')
+#2 /Users/mohammadrevan/Desktop/skripsi/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/mohammadrevan/Desktop/skripsi/system/Common.php(1089): CodeIgniter\View\View->render('pages/penjualan...', Array, true)
+#4 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Penjualan.php(15): view('pages/penjualan...', Array)
+#5 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Penjualan->index()
+#6 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#7 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#10 {main}
+CRITICAL - 2022-03-16 05:24:47 --> Attempt to read property "id" on array
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Views/pages/penjualan/index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Users/mohammad...', 33)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/View/View.php(210): include('/Users/mohammad...')
+#2 /Users/mohammadrevan/Desktop/skripsi/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/mohammadrevan/Desktop/skripsi/system/Common.php(1089): CodeIgniter\View\View->render('pages/penjualan...', Array, true)
+#4 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Penjualan.php(15): view('pages/penjualan...', Array)
+#5 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Penjualan->index()
+#6 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#7 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#10 {main}
+CRITICAL - 2022-03-16 05:25:01 --> Attempt to read property "jenis" on array
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Views/pages/penjualan/index.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Users/mohammad...', 34)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/View/View.php(210): include('/Users/mohammad...')
+#2 /Users/mohammadrevan/Desktop/skripsi/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/mohammadrevan/Desktop/skripsi/system/Common.php(1089): CodeIgniter\View\View->render('pages/penjualan...', Array, true)
+#4 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Penjualan.php(15): view('pages/penjualan...', Array)
+#5 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Penjualan->index()
+#6 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#7 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#10 {main}
+CRITICAL - 2022-03-16 06:06:26 --> Trying to access array offset on value of type null
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/mohammad...', 29)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-16 06:06:45 --> Trying to access array offset on value of type null
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/mohammad...', 29)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-16 06:06:52 --> Trying to access array offset on value of type null
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/mohammad...', 29)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-16 06:11:50 --> Trying to access array offset on value of type null
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/mohammad...', 35)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-16 06:11:53 --> Trying to access array offset on value of type null
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/mohammad...', 35)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-16 06:12:00 --> Trying to access array offset on value of type null
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/mohammad...', 35)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-16 06:43:16 --> Trying to access array offset on value of type null
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/mohammad...', 35)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-16 06:43:26 --> Trying to access array offset on value of type null
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/mohammad...', 35)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-16 06:50:44 --> Implicit conversion from float 1.8 to int loses precision
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Implicit conver...', '/Users/mohammad...', 41)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-16 06:51:07 --> Implicit conversion from float 1.8 to int loses precision
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Implicit conver...', '/Users/mohammad...', 41)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-16 06:52:40 --> Implicit conversion from float 1.8 to int loses precision
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Implicit conver...', '/Users/mohammad...', 41)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-16 07:23:01 --> Trying to access array offset on value of type null
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/mohammad...', 35)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-16 07:35:08 --> Undefined array key "harga_jual"
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/mohammad...', 36)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-16 10:45:07 --> Undefined variable $harga
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/mohammad...', 37)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-16 10:47:00 --> Undefined array key "harga_jual"
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/mohammad...', 39)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-16 10:47:27 --> Undefined array key "st1"
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/mohammad...', 39)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-16 10:52:53 --> syntax error, unexpected token "return"
+#0 /Users/mohammadrevan/Desktop/skripsi/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/mohammad...')
+#1 /Users/mohammadrevan/Desktop/skripsi/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#8 {main}
+CRITICAL - 2022-03-16 10:57:41 --> Trying to access array offset on value of type null
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/mohammad...', 45)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-16 10:57:47 --> Trying to access array offset on value of type null
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/mohammad...', 45)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-16 10:59:41 --> Trying to access array offset on value of type null
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/mohammad...', 45)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-16 11:16:02 --> Trying to access array offset on value of type null
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/mohammad...', 45)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-16 11:23:07 --> Trying to access array offset on value of type null
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/mohammad...', 45)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-16 11:23:57 --> Trying to access array offset on value of type null
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/mohammad...', 45)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-16 11:26:28 --> Trying to access array offset on value of type null
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/mohammad...', 45)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-16 11:26:48 --> Trying to access array offset on value of type null
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/mohammad...', 45)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-16 11:28:20 --> Trying to access array offset on value of type null
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/mohammad...', 45)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-16 11:30:25 --> Trying to access array offset on value of type null
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/mohammad...', 45)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-16 11:34:19 --> Cannot use a scalar value as an array
+#0 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#5 {main}
+CRITICAL - 2022-03-16 11:39:53 --> Trying to access array offset on value of type null
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/mohammad...', 45)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-16 11:40:02 --> Trying to access array offset on value of type null
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/mohammad...', 45)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-16 11:46:08 --> Trying to access array offset on value of type null
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/mohammad...', 45)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-16 11:46:12 --> Trying to access array offset on value of type null
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/mohammad...', 45)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-16 11:47:35 --> Trying to access array offset on value of type null
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/mohammad...', 45)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-16 11:49:48 --> Trying to access array offset on value of type null
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/mohammad...', 45)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-16 11:50:32 --> Trying to access array offset on value of type null
+#0 /Users/mohammadrevan/Desktop/skripsi/app/Controllers/Prediksi.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/mohammad...', 47)
+#1 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(825): App\Controllers\Prediksi->hitung()
+#2 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#3 /Users/mohammadrevan/Desktop/skripsi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadrevan/Desktop/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadrevan/Desktop/skripsi/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
